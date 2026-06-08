@@ -74,7 +74,9 @@ bold principle stated first, stories follow and support.
 6. **Feedback Is the Multiplier** — Feedback loop quantity is a key outcome driver.
 7. **The Fulcrum Principle** — Physical proximity to your team is a leadership act.
 8. **Super-Optimism / Protect the Magic** — [May merge with Radical Optimism — resolve]
-9. **[Principle 9 TBD]**
+9. **The Permission Layer** — Control disguised as coordination creates an invisible peer-level
+   bottleneck. It looks like order from the outside, which makes it immune to intervention.
+   [Story banked — confirmed Section III]
 10. **[Principle 10 TBD]**
 
 ---
@@ -113,6 +115,7 @@ confirms placement.
 | **Workflow Design / Pivot-Persist** | Story about discipline in deciding when to pivot vs. persist on a failing approach. | Unconfirmed |
 | **Delegation Without Creative Ownership** | "Delegation without creative ownership is just tasking." Placed as counter-example under Vision First. | Unconfirmed — Section III Vision Sourcing |
 | **Information Gatekeeping** | Leader who hoarded information created invisible hierarchy and eroded trust. | Unconfirmed — Section II, parent principle TBD |
+| **The Orderly Bottleneck** | A peer gradually accumulated tasks and control under the appearance of coordination and organization. Every change had to go through them — making Eric effectively subordinate to a colleague. Management saw order and didn't intervene. The cost was autonomy, morale, and eventually the role. The insight: control that looks like organization is immune to scrutiny, which makes it more dangerous than obvious control. | Section III — "The Permission Layer" ✅ CONFIRMED |
 
 ---
 
