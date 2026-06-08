@@ -1,0 +1,34 @@
+% ============================================================
+% main.tex — Enabling the Frontier
+% Master document: inputs all section files
+% Compile with: pdflatex main.tex (run twice for TOC/refs)
+% ============================================================
+
+\documentclass[11pt, letterpaper, openany]{book}
+
+\input{preamble}
+
+\begin{document}
+
+% --- Front matter ---
+\frontmatter
+\input{sections/front_matter}
+
+\tableofcontents
+\cleardoublepage
+
+% --- Main matter ---
+\mainmatter
+
+\input{sections/section1_building}
+\input{sections/section2_leading}
+\input{sections/section3_framing}
+\input{sections/section4_recognition}
+\input{sections/section5_knowledge}
+
+% --- Back matter (future) ---
+% \backmatter
+% \input{sections/bibliography}
+% \input{sections/index}
+
+\end{document}

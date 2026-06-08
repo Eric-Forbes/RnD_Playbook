@@ -1,0 +1,134 @@
+% ============================================================
+% preamble.tex — Enabling the Frontier
+% ============================================================
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% Page geometry
+\usepackage[
+  top=1.25in,
+  bottom=1.25in,
+  inner=1.25in,
+  outer=1.0in,
+  headheight=14pt
+]{geometry}
+
+% Typography
+\usepackage{setspace}
+\setstretch{1.15}
+\usepackage{parskip}
+\setlength{\parskip}{0.6em}
+\setlength{\parindent}{0pt}
+
+% Headers & footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\textit{Enabling the Frontier}}
+\fancyhead[RO]{\small\textit{\leftmark}}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+% Colors
+\usepackage[dvipsnames]{xcolor}
+\definecolor{principleblue}{RGB}{20, 60, 110}
+\definecolor{accentgold}{RGB}{180, 140, 40}
+\definecolor{lightgray}{RGB}{245, 245, 245}
+\definecolor{midgray}{RGB}{120, 120, 120}
+
+% Section formatting
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\color{principleblue}}
+  {\normalfont\large\color{midgray}Section \thechapter}
+  {8pt}
+  {\Huge}
+\titlespacing{\chapter}{0pt}{-10pt}{30pt}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{principleblue}}
+  {\thesection}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries\color{midgray}\itshape}
+  {}
+  {0em}
+  {}
+
+% Principle box environment
+\usepackage{mdframed}
+\newmdenv[
+  backgroundcolor=lightgray,
+  linecolor=principleblue,
+  linewidth=2pt,
+  topline=false,
+  bottomline=false,
+  rightline=false,
+  innerleftmargin=14pt,
+  innerrightmargin=14pt,
+  innertopmargin=10pt,
+  innerbottommargin=10pt,
+  skipabove=12pt,
+  skipbelow=8pt
+]{principlebox}
+
+% Story callout environment
+\newmdenv[
+  backgroundcolor=white,
+  linecolor=accentgold,
+  linewidth=1.5pt,
+  topline=false,
+  bottomline=false,
+  rightline=false,
+  innerleftmargin=14pt,
+  innerrightmargin=8pt,
+  innertopmargin=8pt,
+  innerbottommargin=8pt,
+  skipabove=10pt,
+  skipbelow=6pt
+]{storybox}
+
+% TOC
+\usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\Large\bfseries\color{principleblue}}
+\setlength{\cftbeforesecskip}{4pt}
+
+% Hyperlinks
+\usepackage[
+  colorlinks=true,
+  linkcolor=principleblue,
+  urlcolor=principleblue,
+  citecolor=principleblue,
+  pdftitle={Enabling the Frontier},
+  pdfauthor={Eric Forbes},
+  bookmarksnumbered=true
+]{hyperref}
+
+% Utilities
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xspace}
+
+% Convenient commands
+\newcommand{\principle}[1]{%
+  \begin{principlebox}
+    \textbf{\large #1}
+  \end{principlebox}%
+}
+
+\newcommand{\sectionintro}[1]{%
+  \begin{center}
+    \large\itshape\color{midgray} #1
+  \end{center}
+  \vspace{0.5em}
+}
+
+\newcommand{\tbd}[1][TBD]{%
+  \textcolor{midgray}{\textit{[#1]}}%
+}
