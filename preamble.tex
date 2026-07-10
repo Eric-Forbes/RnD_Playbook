@@ -31,6 +31,14 @@
 \fancyhead[RO]{\small\textit{\leftmark}}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
+% The book calls its top-level divisions "Sections" (styled that way on
+% chapter pages) — keep the running header consistent with that vocabulary.
+% Guarded: outline.tex uses the article class, which has no \chaptermark.
+\makeatletter
+\@ifundefined{chaptermark}{}{%
+  \renewcommand{\chaptermark}[1]{\markboth{Section \thechapter.\ #1}{}}%
+}
+\makeatother
 
 % Colors
 \usepackage[dvipsnames]{xcolor}
@@ -38,6 +46,7 @@
 \definecolor{accentgold}{RGB}{180, 140, 40}
 \definecolor{lightgray}{RGB}{245, 245, 245}
 \definecolor{midgray}{RGB}{120, 120, 120}
+\definecolor{tbdred}{RGB}{158, 58, 46}
 
 % Section formatting
 \usepackage{titlesec}
@@ -129,6 +138,9 @@
   \vspace{0.5em}
 }
 
+% Editorial placeholder — everything inside a \tbd is scaffolding
+% awaiting Eric's input, never book content. Red so it can't be
+% mistaken for finished prose when skimming a compiled draft.
 \newcommand{\tbd}[1][TBD]{%
-  \textcolor{midgray}{\textit{[#1]}}%
+  \textcolor{tbdred}{\textit{[#1]}}%
 }

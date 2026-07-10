@@ -132,6 +132,11 @@ These must be resolved with Eric before placement is finalized:
 4. **Absorbing Pressure vs. Exposing It** — New principle in its own right, or a supporting
    angle folded into "Maintain Fundamentals Under Pressure" (Section II) or "Engineers as
    Self-Managing" (Section III)? See Story Bank.
+5. **"Vision First"** — Referenced in the working rules below and in Section I's "Remove the
+   Layers" text as the book's philosophical foundation, but no principle carries that title.
+   Closest existing principles: "Engineers as Self-Managing" (III.1, trade-space language) and
+   "Vision Sourcing vs. Sinking" (III.2). Is it one of these renamed, or a missing principle
+   (candidate for an open TBD slot)?
 
 ---
 
@@ -140,8 +145,9 @@ These must be resolved with Eric before placement is finalized:
 ```
 RnD_Playbook/
 ├── CLAUDE.md           ← This file. Source of truth.
+├── README.md           ← Layout + build instructions
 ├── main.tex            ← Master document (inputs all sections)
-├── outline.tex         ← Full structural outline (all 32 principles)
+├── outline.tex         ← Full structural outline (all 32 principles, standalone article)
 ├── preamble.tex        ← Packages, fonts, formatting
 ├── sections/
 │   ├── front_matter.tex
@@ -151,8 +157,15 @@ RnD_Playbook/
 │   ├── section4_recognition.tex
 │   └── section5_knowledge.tex
 └── output/
-    └── playbook.pdf    ← Compiled output
+    ├── main.pdf        ← Compiled book
+    └── outline.pdf     ← Compiled structural outline
 ```
+
+Build: `pdflatex main.tex` (twice, for TOC) and `pdflatex outline.tex`. Needs
+`texlive-latex-recommended` + `texlive-latex-extra` (titlesec, mdframed, tocloft, enumitem).
+Editorial placeholders use the `\tbd[...]` macro — content inside it is scaffolding, not
+book text. Anything not traceable to Eric's raw captures in this file must be wrapped in
+`\tbd` and flagged as draft.
 
 ---
 
