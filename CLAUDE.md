@@ -116,6 +116,7 @@ confirms placement.
 | **Delegation Without Creative Ownership** | "Delegation without creative ownership is just tasking." Placed as counter-example under Vision First. | Unconfirmed — Section III Vision Sourcing |
 | **Information Gatekeeping** | Leader who hoarded information created invisible hierarchy and eroded trust. | Unconfirmed — Section II, parent principle TBD |
 | **The Orderly Bottleneck** | A peer gradually accumulated tasks and control under the appearance of coordination and organization. Every change had to go through them — making Eric effectively subordinate to a colleague. Management saw order and didn't intervene. The cost was autonomy, morale, and eventually the role. The insight: control that looks like organization is immune to scrutiny, which makes it more dangerous than obvious control. | Section III — "The Permission Layer" ✅ CONFIRMED |
+| **Absorbing Pressure vs. Exposing It** | A lot of engineering managers believe they are protecting their teams by absorbing pressure — shielding them from leadership, handling escalations quietly, smoothing over issues. It feels responsible. But over time it creates a team disconnected from the real constraints of the system. Strong teams don't need to be protected from pressure; they need to understand it. When engineers see the real tradeoffs, they make better decisions — and they grow faster. | Unconfirmed — candidate near Section II "Maintain Fundamentals Under Pressure" (distinct angle: exposing vs. shielding, not habit erosion) and/or Section III "Engineers as Self-Managing" (same "see the full trade space" mechanism). Could also stand alone as a new Section II principle. |
 
 ---
 
@@ -128,6 +129,9 @@ These must be resolved with Eric before placement is finalized:
 2. **Apollo Decomposition + Time-as-Currency** — One principle or two?
 3. **Parenting Analogy** — Standalone principle or emotional underpinning of existing
    servant leadership themes?
+4. **Absorbing Pressure vs. Exposing It** — New principle in its own right, or a supporting
+   angle folded into "Maintain Fundamentals Under Pressure" (Section II) or "Engineers as
+   Self-Managing" (Section III)? See Story Bank.
 
 ---
 
