@@ -11,3 +11,7 @@
 *.fdb_latexmk
 *.bbl
 *.blg
+
+# Root-level PDFs are pdflatex intermediates; committed copies live in output/
+/main.pdf
+/outline.pdf
