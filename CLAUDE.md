@@ -118,6 +118,15 @@ confirms placement.
 | **The Orderly Bottleneck** | A peer gradually accumulated tasks and control under the appearance of coordination and organization. Every change had to go through them — making Eric effectively subordinate to a colleague. Management saw order and didn't intervene. The cost was autonomy, morale, and eventually the role. The insight: control that looks like organization is immune to scrutiny, which makes it more dangerous than obvious control. | Section III — "The Permission Layer" ✅ CONFIRMED |
 | **Absorbing Pressure vs. Exposing It** | A lot of engineering managers believe they are protecting their teams by absorbing pressure — shielding them from leadership, handling escalations quietly, smoothing over issues. It feels responsible. But over time it creates a team disconnected from the real constraints of the system. Strong teams don't need to be protected from pressure; they need to understand it. When engineers see the real tradeoffs, they make better decisions — and they grow faster. | Unconfirmed — candidate near Section II "Maintain Fundamentals Under Pressure" (distinct angle: exposing vs. shielding, not habit erosion) and/or Section III "Engineers as Self-Managing" (same "see the full trade space" mechanism). Could also stand alone as a new Section II principle. |
 
+### Principle Candidates (raw concepts, unplaced)
+
+Concepts captured in Eric's shorthand that read as principle material rather than stories.
+Same rule as stories: no placement without Eric's explicit sign-off.
+
+| Concept | Raw Capture | Notes / Candidate Placement |
+|---|---|---|
+| **Engineers Own the Product Upward** | "A good engineer owns the product to upper mgmt, and is responsible for the uncertainty." Ownership isn't just building — a good engineer represents the product to upper management and is accountable for its uncertainty: characterizing it, communicating it, carrying it, rather than passing it up to managers to absorb. | Unconfirmed. Thematic neighbors: III.1 "Engineers as Self-Managing" (full trade space → self-direction; this adds the upward-facing accountability half), the banked "Absorbing Pressure vs. Exposing It" story (manager exposes real constraints ↔ engineer owns them upward — possibly two sides of one principle), and I.3 "Altitude of Decomposition" (owning uncertainty as a seniority marker). Could fill an open TBD slot (I.7/I.8, III.10, V.3) or fold into III.1. Probe with Eric: one principle or two with Absorbing Pressure? |
+
 ---
 
 ## Open Structural Questions
