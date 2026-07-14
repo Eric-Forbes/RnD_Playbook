@@ -130,6 +130,25 @@ Same rule as stories: no placement without Eric's explicit sign-off.
 
 ---
 
+## External Prompts (Not Eric's Material)
+
+Content Eric has shared in session — LinkedIn-style posts, other authors' aphorisms — that
+he has **not** yet elaborated on with his own view or story. These are logged so nothing
+gets lost, but they are explicitly **not** treated as Eric's raw captures and must never be
+paraphrased into the book as if they were his voice. They stay here, unattributed to Eric,
+until either (a) he gives his own take, at which point *that take* — not the source post —
+gets moved to the Story Bank or Principle Candidates, or (b) he says to cite the source
+directly as an external reference.
+
+| Prompt | Source / Gist | Thematic Proximity |
+|---|---|---|
+| Burnout cycle | Steve Huynh (LinkedIn): burnout follows from concluding your work is pointless / invisible; the fix is to make impactful work visible, or find work that matters. "Virtuous cycle" (care → do your best → grow → thrive) vs. "vicious cycle" (don't care → low quality → stagnate → burn out). | III.4 Protect the Passion; Section IV Recognition & Belief (underdeveloped — the "make it visible" plank overlaps IV.1 Specific Earned Affirmation from the other side: someone else naming your work vs. you making it visible yourself). |
+| How technical should an EM be | Unattributed post: managers don't need to be the best coder — their job is to make the team better, not to out-code them. Enabling a team of 5–8 to be 20–30% more productive beats one person's individual output. | II.2 Servant Leadership (leader's job is enabling, not doing); III.7 The Fulcrum Principle (technical proximity vs. technical dominance — worth distinguishing). |
+| The promotion trap | Unattributed post: becoming indispensable makes you a hostage, not a candidate for promotion — "too valuable to lose, too useful to move." Antidote: teach others, build systems that survive your absence, make your absence look survivable. Also touches layoffs: nobody weighs loyalty or hours worked when cutting, only cost and disposability — so chase "career security" (a portable name and skills, relationships built in advance), not job security. | II.8 Earn Your Real Estate (leader's obligation to promote from within — this post is the individual-contributor mirror: don't make yourself unpromotable); Section IV (underdeveloped). **Direct tension flag:** this post's "make yourself replaceable" thesis sits in real friction with V.2 Stand on Each Other's Shoulders (which values people who build living systems that outlast them — same behavior, different frame: survival tool here vs. legacy-building there). Worth Eric's view on whether that's the same idea from two angles or a genuine contradiction. |
+| Promotions go to the visible | Unattributed post: promotions go to the most visible, not the most deserving; the fastest-promoted acted the role before getting the title; "you earn it in public." | II.8 Earn Your Real Estate. **Direct contradiction flag:** this is close to the *opposite* thesis of the already-banked "'Next Level' Means Steadier" coaching story, which explicitly says next-level readiness is "not louder, or busier, or more visible — just steadier." If Eric wants both ideas in the book, they need to be reconciled or deliberately framed as two different, situational truths — not left to silently contradict each other. |
+
+---
+
 ## Open Structural Questions
 
 These must be resolved with Eric before placement is finalized:
