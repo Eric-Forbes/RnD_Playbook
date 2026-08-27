@@ -193,7 +193,8 @@ RnD_Playbook/
 │   ├── section2_leading.tex
 │   ├── section3_framing.tex
 │   ├── section4_recognition.tex
-│   └── section5_knowledge.tex
+│   ├── section5_knowledge.tex
+│   └── appendix_interview.tex  ← Appendix: 6 questions high performers ask in interviews
 └── output/
     ├── main.pdf        ← Compiled book
     └── outline.pdf     ← Compiled structural outline
